@@ -19,7 +19,7 @@ function Paginator(){
 		}
 		setPage(index-2);
 	}
-				
+	/* private functions setPage, shouldDisableButtons, getActiveIndex, inDiapason */		
 	function setPage(ind){
 		var buttons=document.getElementsByClassName('btn');
 		var divs=document.getElementsByClassName('page');
